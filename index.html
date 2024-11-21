@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="https://scontent-xsp1-1.xx.fbcdn.net/v/t1.15752-9/354780589_809389650329623_8389356405749328912_n.png?_nc_cat=105&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeEqZN6E7nkuo9_Srb0Xa1HsU2ezQNG-XE1TZ7NA0b5cTe4QHCgg5hUlsLB93YkdJskMEwmQtMhkrSo8k-KACwSX&_nc_ohc=KN4031rutaoAX9Qucua&_nc_ht=scontent-xsp1-1.xx&oh=03_AdSY9bQ2f2S7aJJtFp-x98gDnV2ZpbMS-Iu1veoEmQ7CTw&oe=64B38CCD">
+    <title>Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.9.1.min.js"></script>
+    <link rel="stylesheet" href="stylelog.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand">CPE</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="subhead.php">ข้อมูลทั้งหมด</a>
+        </li>
+  <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="head.php">ข้อมูลทั้งหมด</a>
+        </li>
+      
+        <li class="nav-item">
+          <a class="nav-link" href="addfrom.php">บันทึกข้อมูล</a>
+        </li>
+          <li class="nav-item">
+              <a class="nav-link" href="login.php">เข้าสู่ระบบ</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              สวัสดี
+            </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="logout.php">ออกจากระบบ</a></li>
+              <li><a class="dropdown-item" href="register.php">เพิ่มข้อมูลนักศึกษา</a></li>
+        </li>
+            </ul>
+          </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="container my-3">
+    <main>
+        <form action="#" method="post">
+        <div class="row">
+            <div class="colm-logo">
+                <img src="cpe.ico" alt="Logo">
+            </div>
+            <div class="colm-form">
+                <div class="form-container">
+                    <input type="text" placeholder="Student ID">
+                    <input type="password" name="user_password" placeholder="Password">
+                    <button class="btn-login">Login</button>
+                    <p><span class="icon icon--info"></span><a href="register1.php">Register</a></p>
+                </div>
+            </div>
+        </div>
+        </form>
+    </main>
+    
+</body>
+</html>
